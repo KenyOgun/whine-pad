@@ -3,6 +3,7 @@ import Body from "./Body";
 import Button from "./Button";
 import React from "react";
 import ReactDOM from "react-dom";
+import Suggest from "./Suggest";
 // more imports here...
 
 function Discovery() {
@@ -16,7 +17,7 @@ function Discovery() {
       <Body>I am content inside the body</Body>
       {/* and so on */}
 
-      {/* render button */}
+      {/* rendering button */}
       <h2>Buttons</h2>
       <p>
         Button with onClick:{" "}
@@ -28,6 +29,12 @@ function Discovery() {
       <p>
         Custom class name:{" "}
         <Button className="Discovery-custom-button">I do nothing</Button>
+      </p>
+
+      {/* rendering suggest */}
+      <h2>Suggest</h2>
+      <p>
+        <Suggest options={["eenie", "meenie", "miney", "mo"]} />
       </p>
     </div>
   );
