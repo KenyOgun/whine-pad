@@ -1,6 +1,7 @@
 import Logo from "./Logo";
 import Body from "./Body";
 import Button from "./Button";
+import Rating from "./Rating";
 import React from "react";
 import ReactDOM from "react-dom";
 import Suggest from "./Suggest";
@@ -35,6 +36,21 @@ function Discovery() {
       <h2>Suggest</h2>
       <p>
         <Suggest options={["eenie", "meenie", "miney", "mo"]} />
+      </p>
+
+      {/* rendering rating */}
+      <h2>Rating</h2>
+      <p>
+        No initial value: <Rating />
+      </p>
+      <p>
+        Initial value 4: <Rating defaultValue={4} />
+      </p>
+      <p>
+        This one goes to 11: <Rating max={11} />
+      </p>
+      <p>
+        Read-only: <Rating readonly={true} defaultValue={3} />
       </p>
     </div>
   );
