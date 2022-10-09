@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import { forwardRef } from "react";
 import PropTypes from "prop-types";
 import Rating from "./Rating";

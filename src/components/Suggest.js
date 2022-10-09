@@ -1,6 +1,5 @@
 import PropTypes from "prop-types";
 import React from "react";
-import ReactDOM from "react-dom";
 
 function Suggest({ id, defaultValue = "", options = [] }) {
   const randomid = Math.random()

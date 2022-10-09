@@ -1,7 +1,6 @@
 import PropTypes from "prop-types";
 import Rating from "./Rating";
 import React from "react";
-import ReactDOM from "react-dom";
 import Suggest from "./Suggest";
 
 function FormInput({

@@ -2,6 +2,7 @@ import { useState, useReducer, useRef } from "react";
 import PropTypes from "prop-types";
 import classNames from "classnames";
 import clone from "../modules/clone";
+import React from "react";
 
 import "./Excel.css";
 import Actions from "./Actions";

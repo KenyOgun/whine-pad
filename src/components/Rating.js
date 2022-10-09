@@ -3,7 +3,6 @@ import { useState } from "react";
 import PropTypes from "prop-types";
 import "./Rating.css";
 import React from "react";
-import ReactDOM from "react-dom";
 
 function Rating({ id, defaultValue = 0, max = 5, readonly = false }) {
   const [rating, setRating] = useState(defaultValue);

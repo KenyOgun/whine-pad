@@ -12,7 +12,6 @@ import Actions from "./Actions";
 import Dialog from "./Dialog";
 import Excel from "./Excel";
 import React from "react";
-import ReactDOM from "react-dom";
 
 import schema from "../config/schema";
 
